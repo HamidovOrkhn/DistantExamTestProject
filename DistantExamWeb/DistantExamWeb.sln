@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistantExamWeb", "DistantExamWeb\DistantExamWeb.csproj", "{D7D2F68B-EA4E-402A-8CA4-4A4308FB8EBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7D2F68B-EA4E-402A-8CA4-4A4308FB8EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D2F68B-EA4E-402A-8CA4-4A4308FB8EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D2F68B-EA4E-402A-8CA4-4A4308FB8EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D2F68B-EA4E-402A-8CA4-4A4308FB8EBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA611D15-EC00-4161-8049-82B96466ED21}
+	EndGlobalSection
+EndGlobal

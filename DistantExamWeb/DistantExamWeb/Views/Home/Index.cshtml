@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<ul class="data">
+    
+</ul>
+
+@section Scripts{ 
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/answerhub").build();
+
+     //Disable send button until connection is established
+    connection.start();
+            
+    connection.on("SendAnswer", function (answer) {
+               $(".data").append("<li>" + answer + "</li>")
+            });
+          
+</script>
+}
